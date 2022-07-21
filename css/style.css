@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.header {
+    border: 1px solid gainsboro;
+}
+
+.header-address {
+    height: 40px;
+    border: 1px solid gainsboro;
+    background-color: rgb(8, 142, 119);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    justify-content: space-evenly;
+}
+
+.location-container,
+.media-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.location-container>p {
+    color: white;
+    margin-top: 13px;
+}
+
+.media-container {
+    height: 100%;
+}
+
+.media-container>a {
+    width: 30px;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.facebook:hover {
+    transition: 0.5s ease-in;
+    background-color: rgb(42, 64, 228);
+    cursor: pointer;
+    color: white;
+}
+
+.twitter:hover {
+    transition: 0.5s ease-in;
+    background-color: rgb(14, 112, 232);
+    cursor: pointer;
+    color: white;
+}
+
+.linkedin:hover {
+    transition: 0.5s ease-in;
+    background-color: rgb(14, 112, 232);
+    cursor: pointer;
+    color: white;
+}
+
+.google:hover {
+    transition: 0.5s ease-in;
+    background-color: rgb(232, 66, 66);
+    cursor: pointer;
+    color: white;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: 1px solid gainsboro;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+}
+
+.ul {
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+
+.appointment-button {
+    background-color: white;
+    border: 1px solid rgb(8, 142, 119);
+    border-radius: 7px;
+    padding: 9px;
+    background-color: rgb(8, 142, 119);
+    color: white;
+}
+
+.appointment-button:hover {
+    background-color: rgb(9, 120, 101);
+    transition: 0.4s ease-in;
+}
+
+.content {
+    height: auto;
+}
+
+.welcome {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(0, 72, 97);
+}
+
+.text-con {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Merriweather Sans', 'sans-serif';
+    color: rgb(8, 142, 119);
+    font-weight: 600;
+}
+
+.desc-con {
+    margin: auto;
+    width: 100%;
+}
+
+.more-about-btn {
+    background-color: white;
+    border-radius: 7px;
+    padding: 9px;
+    background-color: rgb(8, 142, 119);
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 11px;
+}
+
+.img-cont {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setbg {
+    border: 1px solid black;
+}
+
+.item {
+    height: 300px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 163, 200);
+}
+
+.cont {
+    height: auto;
+}
+
+td {
+    padding: 6px;
+}
+
+.hero2 {
+    height: auto;
+}
+
+.signature {
+    font-family: 'Sacramento';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.listItem-c {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+.listItem-c>li {
+    width: 130px
+}
+
+.list>li>i {
+    color: rgb(14, 112, 232);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+td {
+    border-bottom: none !important;
+}
+
+@media only screen and (max-width:1300px) and (min-width:770px) {
+    .wel {
+        font-size: 0.5em !important;
+    }
+
+    .treatListCon {
+        padding: 60px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width:1000px) {
+    .complete {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width:1600px) and (min-width:1020px) {
+    .complete {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:440px) {
+    .wel {
+        font-size: 0.6em !important;
+    }
+}
+
+.set {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px gainsboro;
+}
+
+.staff {
+    height: 530px;
+    width: 330px;
+}
+
+.sp-row {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.buttons_ch {
+    width: 260px;
+    height: 70px;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ch-con {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.buttons_ch>p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.buttons_ch:hover{
+    background-color: rgb(8, 142, 119);
+    cursor: pointer;
+    color:white;
+}
+
+
+.active_but {
+    background-color: rgb(8, 142, 119);
+    color: white;
+    transition: 0.3s all;
+}
+
+.dropdown {
+    width: auto;
+}
+
+/* side nav */
+
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: black;
+}
+
+
+.main {
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+
+.active {
+    background-color: rgb(8, 142, 119);
+    color: white;
+}
+
+
+.dropdown-container {
+    display: none;
+    background-color: white;
+    color: black;
+    padding-left: 8px;
+}
+
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.dropdown-container>a {
+    font-size: 16px !important;
+}
+
